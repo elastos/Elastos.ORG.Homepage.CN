@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="Description" content="北京亦来云科技有限公司-主要业务是为区块链项目提供技术及方案外包支持"/>
+		<meta name="Keywords" content="北京亦来云科技有限公司,Beijing Elastos Technology Co., Ltd."/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta id="viewport" name="viewport" content="width=1200">
+		<title>Beijing Elastos Technology Co., Ltd.-Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<!--header start-->
+		<div class="header_">
+			<header class="header-wrapper" id="header">
+				<div class="header-box w1200">
+					<div class="logo-box">
+						<a href="index.html">
+							<img src="img/logo-t.png" class="logo-text"/>
+						</a>
+					</div>
+					<ul class="nav-box">
+						<li><a href="techSolution.html">Technical Solution</a></li>
+						<li><a href="techSolution.html">Industry Solutions</a></li>
+						<li><a href="contactUs.html">Contact Us</a></li>
+						<li><a href="joinUs.html">Join Us</a></li>
+					</ul>
+					<div class="language-box">
+						<div class="language-active-box">
+							<a href="#">
+								<img class="language-logo" src="img/uk.png" width="23" height="17"/>
+								<span>English</span>
+								<i class="icon-a"></i>
+							</a>
+						</div>
+						<div class="language-sec-box" style="transform-origin: center top 0px; display: none;">
+							<a href="/zh/contactUs.html">
+								<img class="language-logo" src="img/china.png" width="23" height="17"/>
+								<span>中文简体</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<!--header end-->
+		<!--content start-->
+		<div class="content-wrapper">
+			<div class="content-box contact-box w1200">
+				<h2 class="title">Contact Us</h2>
+				<ul class="item-ul">
+					<li class="item-li">
+						<img class="item-img" src="img/gps.svg" width="93" height="93"/>
+						<p class="item-bref">Floor 3, Plug and Play, Block G, Zhizhao Street, Zhongguancun, 45 Chengfu Road, Dongsheng Town, Haidian District, Beijing</p>
+					</li>
+					<li class="item-li">
+						<img class="item-img" src="img/email.svg" width="93" height="93"/>
+						<p class="item-bref"><a href="mailto:contact@elastos.com.cn">contact@elastos.com.cn</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--content end-->
+	</body>
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+				//导入公共页面
+//			$(".header_").load("commonPage/header.html #header",function(){
+//				//语言切换
+//				$('.language-active-box').click(function(){
+//				  	$(this).addClass("active").siblings().removeClass("active");
+//				  	$(".language-sec-box").toggle();
+//				})
+//				$('.language-sec-box').click(function(){
+//					$(this).addClass("active").siblings().removeClass("active");
+//				  	$(".language-sec-box").toggle();
+//				})
+//			});
+			//语言切换
+			$('.language-active-box').click(function(){
+			  	$(this).addClass("active").siblings().removeClass("active");
+			  	$(".language-sec-box").toggle();
+			})
+			$('.language-sec-box').click(function(){
+				$(this).addClass("active").siblings().removeClass("active");
+			  	$(".language-sec-box").toggle();
+			})
+			
+		});
+	</script>
+</html>

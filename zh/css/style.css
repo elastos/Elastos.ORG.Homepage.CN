@@ -1,0 +1,264 @@
+/**
+ * 15541958910@163.com
+ * anyw
+ */
+/*COMMON*/
+/*弹性布局*/
+.flex{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+}
+/*COMMON*/
+/*首页*/
+.content-box{
+	margin: 0 auto;
+	text-align: center;
+}
+.banner-box{
+  	width: 100%;
+  	height: 643px;
+  	background-size: 100% 100%;
+  	background-color: rgba(0, 0, 0, 0.16);
+    background-repeat: no-repeat;
+}
+.title-box{
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 160px;
+}
+.title-box h1{
+	font-size: 50px;
+}
+.title-box p{
+	margin-top: 20px;
+	font-size: 26px;
+}
+.title{
+	position: relative;
+	color: #1a1919;
+	font-size: 39px;
+}
+.title:after{
+    position: absolute;
+	bottom: -23px;
+	left: 46%;
+	content: "";
+	border-bottom: solid 4px #0070c9;
+	width: 116px;
+	height: 4px;
+}
+.service-box{
+	width: 745px;
+	margin: 0 auto;
+}
+.service-box .title{
+	margin-top: 106px;
+}
+.service-box .title:after{
+	left: 42%;
+}
+.service-box .item-ul{
+	margin-top: 118px;
+}
+.service-box .item-li{
+	display: inline-block;
+}
+.service-box .item-li:first-child{
+	margin-right: 161px;
+}
+.service-box .item-li:nth-child(2){
+	margin-right: 124px;
+}
+.service-box .item-li:nth-child(3){
+	margin-right: 0;
+}
+.service-box .item-li:nth-child(4){
+	margin-left: 125px;
+	margin-right: 165px;
+	margin-top: 89px;
+}
+.service-box .item-li:last-child{
+	margin-right: 176px;
+	margin-top: 89px;
+}
+.service-box .item-li img{
+	margin: 0 auto;
+}
+.service-box .item-li p{
+	font-size: 18px;
+	color: #0b143b;
+	margin-top: 24px;
+}
+.item-box{
+	color: #0b143b;
+	font-size: 16px;
+	width: 916px;
+	margin: 0 auto;
+}
+.item-box .title{
+	margin-top: 180px;
+}
+.item-box .title:after{
+	left: 44%;
+}
+.item-box .item-ul{
+	margin-top: 98px;
+}
+.item-box .item-li{
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	margin-right: 76px;
+}
+.item-box .item-li:last-child{
+	margin-right: 0;
+}
+.item-box .item-li .bref-box{
+	box-sizing: content-box;
+	background: #FFFFFF;
+	padding: 20px 20px;
+}
+.item-li .bref-box h3{
+	font-size: 16px;
+	color: #1a1919;
+}
+.item-li .bref-box p{
+	margin-top: 15px;
+	font-size: 13px;
+	color: #999999;
+	text-align: left;
+}
+.link-box{
+	width: 1060px;
+	margin: 0 auto;
+	margin-top: 170px;
+}
+.link-box .title:after{
+	left: 44%;
+}
+.link-box .item-ul{
+	margin-top: 104px;
+	margin-bottom: 133px;
+}
+.link-box .item-li{
+	margin-top: 104px;
+	display: inline-block;
+}
+
+/*联系我们*/
+.contact-box{
+	text-align: center;
+	margin: 0 auto;
+}
+.contact-box .title{
+	margin-top: 96px;
+}
+.contact-box .title:after {
+    left: 45%;
+}
+.contact-box .item-li{
+	margin-top: 100px;
+}
+.contact-box .item-li p{
+	font-size: 18px;
+	color: #0c0c0c;
+	margin-top: 35px;
+}
+/*技术解决方案*/
+.technology-box .title{
+	margin-top: 78px;
+}
+.technology-box .title:after {
+    left: 45%;
+}
+.technology-box .item-li{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 78px;
+}
+.technology-box .item-li .title-small{
+	margin-top: 39px;
+	color: #0070c9;
+	font-size: 22px;
+}
+.technology-box .item-li .item-bref{
+	width: 937px;
+	color: #0b143b;
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+	margin-top: 35px;
+	margin-bottom: 70px;
+	line-height: 1.5;
+}
+.technology-box .item-li:nth-of-type(odd){
+	background: #FAFAFA;
+}
+.technology-box .item-li:nth-of-type(even){
+	background: #f5f5f5;
+}
+/*加入我们*/
+/*表格*/
+.table-box {
+	clear: both;
+	margin: 0 auto;
+	padding-bottom: 350px;
+}
+.table-box .title{
+	margin-top: 98px;
+	margin-bottom: 71px;
+}
+.table-box .title:after {
+    left: 45%;
+}
+.table-box table {
+	width: 930px;
+	border-collapse: collapse;
+	margin: auto;
+}
+.table-box table th{
+	color: #fefefe;
+	font-size: 14px;
+	background-color: #0070c9;
+	height: 40px;
+	text-align: center;
+	border: solid 1px #bfbfbf;
+}
+.table-box table td{
+	padding: 8px 5px;
+	text-align: left;
+	vertical-align: middle;
+	border: solid 1px #bfbfbf;
+	padding: 25px;
+}
+.table-box table td:first-child{
+	width: 220px;
+	text-align: center;
+}
+.table-box table td:last-child{
+	width: 62px;
+	padding: 14px;
+}
+.table-box table td:nth-child(2){
+	width: 280px;
+}
+.table-box table td:nth-child(3){
+	width: 369px;
+}
+.table-box table td p{
+	color: #000000;
+	font-size: 14px;
+	line-height: 1.8;
+}
+.table-box table td p:first-child{
+	color: #0070c9;
+}
+.table-box table td:last-child p:first-child{
+	color: #000000;
+}
